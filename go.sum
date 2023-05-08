@@ -88,6 +88,8 @@ github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092/go.mod
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883/go.mod h1:rCTlJbsFo29Kk6CurOXKm700vrz8f0KW0JNfpkRJY/8=
 github.com/andybalholm/brotli v1.0.1 h1:KqhlKozYbRtJvsPrrEeXcO+N2l6NYT5A2QAFmSULpEc=
 github.com/andybalholm/brotli v1.0.1/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
+github.com/andybalholm/brotli v1.0.5 h1:8uQZIdzKmjc/iuPu7O2ioW48L81FgatrcpfFmiq/cCs=
+github.com/andybalholm/brotli v1.0.5/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be h1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=
 github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be/go.mod h1:ySMOLuWl6zY27l47sB3qLNK6tF2fkHG55UZxx8oIVo4=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
@@ -472,7 +474,9 @@ github.com/nextlinux/go-version v1.2.1 h1:KESIkO1632VYEzqoAr2rAOkilYlv62qGFcqh1F
 github.com/nextlinux/go-version v1.2.1/go.mod h1:4wk/zi4tfMI+z58/SDR3uDlViAIw+isaY3PaNCUPybk=
 github.com/nextlinux/gologger v1.0.1 h1:kX8J8P/Uy8J4RY3rlgZlBYBdOEV1en2IV9bsW5aD5HU=
 github.com/nextlinux/gologger v1.0.1/go.mod h1:ANenWV2SwlqeeNb4GPBIs9xshJB8lVQecdTl3QBPXAI=
+github.com/nextlinux/packageurl-go v0.1.0 h1:efWBc98O/dBZRg1pw2xiDzovnlMjCa9NPnfaiBduh8I=
 github.com/nextlinux/packageurl-go v0.1.0 h1:gewz3brE8sl93HzXsS6m3FST5ZiFHXQ4NF6UbhYE3+4=
+github.com/nextlinux/packageurl-go v0.1.0/go.mod h1:C/ApiuWpmbpni4DIOECf6WCjFUZV7O1Fx7VAzrZHgBw=
 github.com/nextlinux/packageurl-go v0.1.0/go.mod h1:M0nDsa3b+4nGxDeZTE2jwmT2cu5APHhcxoy2dlh5eQY=
 github.com/nextlinux/stereoscope v0.0.0-20230508122327-bbc1b4d749a3 h1:RKNxky41ltwWsH5+9STjmOmQ5xwdTN1DQAXcUv3VRf4=
 github.com/nextlinux/stereoscope v0.0.0-20230508122327-bbc1b4d749a3/go.mod h1:v5LfB4yK4XJsn/r/Cq2Ii6W9U1khgs2gMdLTywFczb8=
@@ -485,8 +489,6 @@ github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8
 github.com/opencontainers/go-digest v1.0.0/go.mod h1:0JzlMkj0TRzQZfJkVvzbP0HBR3IKzErnv2BNG4W4MAM=
 github.com/opencontainers/image-spec v1.1.0-rc3 h1:fzg1mXZFj8YdPeNkRXMg+zb88BFV0Ys52cJydRwBkb8=
 github.com/opencontainers/image-spec v1.1.0-rc3/go.mod h1:X4pATf0uXsnn3g5aiGIsVnJBR4mxhKzfwmvK/B2NTm8=
-github.com/nextlinux/packageurl-go v0.1.0 h1:efWBc98O/dBZRg1pw2xiDzovnlMjCa9NPnfaiBduh8I=
-github.com/nextlinux/packageurl-go v0.1.0/go.mod h1:C/ApiuWpmbpni4DIOECf6WCjFUZV7O1Fx7VAzrZHgBw=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pascaldekloe/goe v0.1.0/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml v1.9.4/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCkoOuaOx1Y+c=

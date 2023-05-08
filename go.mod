@@ -38,7 +38,6 @@ require (
 	github.com/nextlinux/stereoscope v0.0.0-20230508122327-bbc1b4d749a3
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/nextlinux/packageurl-go v0.1.0
 	github.com/pelletier/go-toml v1.9.5
 	github.com/sassoftware/go-rpmutils v0.2.0
 	github.com/scylladb/go-set v1.0.2
@@ -73,7 +72,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230217124315-7d5c6f04bbb8 // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
-	github.com/andybalholm/brotli v1.0.1 // indirect
+	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/becheran/wildmatch-go v1.0.0 // indirect
 	github.com/cloudflare/circl v1.1.0 // indirect
 	github.com/containerd/containerd v1.7.0 // indirect
