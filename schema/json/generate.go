@@ -12,9 +12,9 @@ import (
 
 	"github.com/invopop/jsonschema"
 
-	"github.com/nextlinux/gosbom/internal"
 	gosbomjsonModel "github.com/nextlinux/gosbom/gosbom/formats/gosbomjson/model"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 /*

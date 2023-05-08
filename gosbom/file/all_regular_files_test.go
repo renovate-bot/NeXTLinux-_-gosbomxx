@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nextlinux/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/stereoscope/pkg/imagetest"
 )
 
 func Test_allRegularFiles(t *testing.T) {

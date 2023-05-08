@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 type ContentsCataloger struct {

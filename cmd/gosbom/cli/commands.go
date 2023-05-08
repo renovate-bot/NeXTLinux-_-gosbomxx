@@ -12,15 +12,15 @@ import (
 	"github.com/wagoodman/go-partybus"
 
 	"github.com/nextlinux/gologger/adapter/logrus"
-	"github.com/nextlinux/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
+	"github.com/nextlinux/gosbom/gosbom"
+	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/internal/version"
-	"github.com/nextlinux/gosbom/gosbom"
-	"github.com/nextlinux/gosbom/gosbom/event"
+	"github.com/nextlinux/stereoscope"
 )
 
 const indent = "  "

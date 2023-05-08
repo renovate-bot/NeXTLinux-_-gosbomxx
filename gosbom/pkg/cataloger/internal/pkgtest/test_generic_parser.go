@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nextlinux/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/stereoscope/pkg/imagetest"
 )
 
 type locationComparer func(x, y source.Location) bool

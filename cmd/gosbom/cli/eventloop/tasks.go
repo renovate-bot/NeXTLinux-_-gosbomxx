@@ -4,12 +4,12 @@ import (
 	"crypto"
 	"fmt"
 
-	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/gosbom"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/gosbom/internal/config"
 )
 
 type Task func(*sbom.Artifacts, *source.Source) ([]artifact.Relationship, error)

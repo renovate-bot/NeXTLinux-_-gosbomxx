@@ -15,8 +15,8 @@ import (
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	"github.com/nextlinux/gologger"
-	"github.com/nextlinux/gosbom/internal/log"
 	gosbomEvent "github.com/nextlinux/gosbom/gosbom/event"
+	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/ui"
 )
 

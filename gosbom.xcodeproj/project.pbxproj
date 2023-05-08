@@ -28,7 +28,7 @@
 		A58F39E12A09869D00178E18 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		A58F39E22A09869D00178E18 /* .golangci.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .golangci.yaml; sourceTree = "<group>"; };
 		A58F39E32A09869D00178E18 /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
-		A58F39E42A09869D00178E18 /* syft */ = {isa = PBXFileReference; lastKnownFileType = folder; path = syft; sourceTree = "<group>"; };
+		A58F39E42A09869D00178E18 /* gosbom */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gosbom; sourceTree = "<group>"; };
 		A58F39E52A09869D00178E18 /* .bouncer.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .bouncer.yaml; sourceTree = "<group>"; };
 		A58F39E62A09869D00178E18 /* Dockerfile.debug */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile.debug; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +58,7 @@
 				A58F39E12A09869D00178E18 /* CONTRIBUTING.md */,
 				A58F39E22A09869D00178E18 /* .golangci.yaml */,
 				A58F39E32A09869D00178E18 /* .github */,
-				A58F39E42A09869D00178E18 /* syft */,
+				A58F39E42A09869D00178E18 /* gosbom */,
 				A58F39E52A09869D00178E18 /* .bouncer.yaml */,
 				A58F39E62A09869D00178E18 /* Dockerfile.debug */,
 			);
@@ -67,19 +67,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		A58F39CE2A09869D00178E18 /* syft */ = {
+		A58F39CE2A09869D00178E18 /* gosbom */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "syft" */;
+			buildConfigurationList = A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "gosbom" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = /Users/doapply/Projects/macsf/Uninstaller/Helper/syft;
+			buildWorkingDirectory = /Users/doapply/Projects/macsf/Uninstaller/Helper/gosbom;
 			dependencies = (
 			);
-			name = syft;
+			name = gosbom;
 			passBuildSettingsInEnvironment = 1;
-			productName = syft;
+			productName = gosbom;
 		};
 /* End PBXLegacyTarget section */
 
@@ -88,7 +88,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "syft" */;
+			buildConfigurationList = A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "gosbom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -100,7 +100,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A58F39CE2A09869D00178E18 /* syft */,
+				A58F39CE2A09869D00178E18 /* gosbom */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +140,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = syft;
+				PRODUCT_NAME = gosbom;
 			};
 			name = Debug;
 		};
@@ -152,14 +152,14 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = syft;
+				PRODUCT_NAME = gosbom;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "syft" */ = {
+		A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "gosbom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A58F39CB2A09869D00178E18 /* Debug */,
@@ -168,7 +168,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "syft" */ = {
+		A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "gosbom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A58F39E82A09869D00178E18 /* Debug */,

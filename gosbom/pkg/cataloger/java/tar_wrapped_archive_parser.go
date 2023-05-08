@@ -3,11 +3,11 @@ package java
 import (
 	"fmt"
 
-	"github.com/nextlinux/gosbom/internal/file"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/gosbom/internal/file"
 )
 
 var genericTarGlobs = []string{

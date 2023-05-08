@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/nextlinux/go-testutils"
-	"github.com/nextlinux/stereoscope/pkg/filetree"
-	"github.com/nextlinux/stereoscope/pkg/image"
-	"github.com/nextlinux/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/cpe"
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/stereoscope/pkg/filetree"
+	"github.com/nextlinux/stereoscope/pkg/image"
+	"github.com/nextlinux/stereoscope/pkg/imagetest"
 )
 
 type redactor func(s []byte) []byte

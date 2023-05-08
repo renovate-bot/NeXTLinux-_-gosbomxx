@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/stereoscope/pkg/file"
 	"github.com/nextlinux/stereoscope/pkg/imagetest"
-	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 var updateImageGoldenFiles = flag.Bool("update-image", false, "update the golden fixture images used for testing")

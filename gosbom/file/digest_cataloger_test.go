@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/stereoscope/pkg/file"
 	"github.com/nextlinux/stereoscope/pkg/imagetest"
-	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 func testDigests(t testing.TB, root string, files []string, hashes ...crypto.Hash) map[source.Coordinates][]Digest {

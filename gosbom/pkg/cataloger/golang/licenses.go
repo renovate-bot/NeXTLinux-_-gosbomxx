@@ -19,10 +19,10 @@ import (
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/storage/memory"
 
-	"github.com/nextlinux/gosbom/internal/licenses"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/gosbom/internal/licenses"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 type goLicenses struct {

@@ -18,10 +18,10 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	"github.com/spf13/afero"
 
+	"github.com/nextlinux/gosbom/gosbom/artifact"
+	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/stereoscope"
 	"github.com/nextlinux/stereoscope/pkg/image"
-	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/gosbom/artifact"
 )
 
 // Source is an object that captures the data source to be cataloged, configuration, and a specific resolver used

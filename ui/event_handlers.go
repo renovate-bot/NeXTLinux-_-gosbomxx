@@ -18,11 +18,11 @@ import (
 	"github.com/wagoodman/go-progress/format"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
-	stereoEventParsers "github.com/nextlinux/stereoscope/pkg/event/parsers"
-	"github.com/nextlinux/stereoscope/pkg/image/docker"
+	gosbomEventParsers "github.com/nextlinux/gosbom/gosbom/event/parsers"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/ui/components"
-	gosbomEventParsers "github.com/nextlinux/gosbom/gosbom/event/parsers"
+	stereoEventParsers "github.com/nextlinux/stereoscope/pkg/event/parsers"
+	"github.com/nextlinux/stereoscope/pkg/image/docker"
 )
 
 const maxBarWidth = 50

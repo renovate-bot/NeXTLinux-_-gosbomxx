@@ -6,12 +6,12 @@ import (
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
-	stereoFile "github.com/nextlinux/stereoscope/pkg/file"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/formats/gosbomjson/model"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	stereoFile "github.com/nextlinux/stereoscope/pkg/file"
 )
 
 func Test_toGosbomSourceData(t *testing.T) {
