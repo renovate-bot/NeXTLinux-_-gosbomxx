@@ -5,7 +5,7 @@ import (
 
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func newComposerLockPackage(m pkg.PhpComposerJSONMetadata, location ...source.Location) pkg.Package {

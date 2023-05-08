@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func Test_packageURL(t *testing.T) {

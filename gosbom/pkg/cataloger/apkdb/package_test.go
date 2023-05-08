@@ -9,7 +9,7 @@ import (
 
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func Test_PackageURL(t *testing.T) {

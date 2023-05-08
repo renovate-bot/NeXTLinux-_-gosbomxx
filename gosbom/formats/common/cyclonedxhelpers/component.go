@@ -8,7 +8,7 @@ import (
 	"github.com/nextlinux/gosbom/gosbom/formats/common"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func encodeComponent(p pkg.Package) cyclonedx.Component {

@@ -10,7 +10,7 @@ import (
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func newPackage(location source.Location, metadata pkg.RpmMetadata, distro *linux.Release) pkg.Package {

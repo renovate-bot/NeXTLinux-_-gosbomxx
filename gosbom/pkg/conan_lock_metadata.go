@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/nextlinux/gosbom/gosbom/linux"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 type ConanLockMetadata struct {

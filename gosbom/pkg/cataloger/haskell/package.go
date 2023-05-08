@@ -3,7 +3,7 @@ package haskell
 import (
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func newPackage(name, version string, m *pkg.HackageMetadata, locations ...source.Location) pkg.Package {

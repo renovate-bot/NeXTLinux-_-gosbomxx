@@ -3,7 +3,7 @@ package erlang
 import (
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"
-	"github.com/package-url/packageurl-go"
+	"github.com/nextlinux/packageurl-go"
 )
 
 func newPackage(d pkg.RebarLockMetadata, locations ...source.Location) pkg.Package {
