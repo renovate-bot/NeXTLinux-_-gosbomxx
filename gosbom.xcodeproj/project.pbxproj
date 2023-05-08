@@ -1,0 +1,183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A58F39CF2A09869D00178E18 /* ui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ui; sourceTree = "<group>"; };
+		A58F39D02A09869D00178E18 /* cmd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cmd; sourceTree = "<group>"; };
+		A58F39D12A09869D00178E18 /* go.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = go.mod; sourceTree = "<group>"; };
+		A58F39D22A09869D00178E18 /* artifacthub-repo.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "artifacthub-repo.yml"; sourceTree = "<group>"; };
+		A58F39D32A09869D00178E18 /* .goreleaser.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .goreleaser.yaml; sourceTree = "<group>"; };
+		A58F39D42A09869D00178E18 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A58F39D52A09869D00178E18 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		A58F39D62A09869D00178E18 /* DEVELOPING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEVELOPING.md; sourceTree = "<group>"; };
+		A58F39D72A09869D00178E18 /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
+		A58F39D82A09869D00178E18 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A58F39D92A09869D00178E18 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		A58F39DA2A09869D00178E18 /* internal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = internal; sourceTree = "<group>"; };
+		A58F39DB2A09869D00178E18 /* go.sum */ = {isa = PBXFileReference; lastKnownFileType = text; path = go.sum; sourceTree = "<group>"; };
+		A58F39DC2A09869D00178E18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A58F39DD2A09869D00178E18 /* schema */ = {isa = PBXFileReference; lastKnownFileType = folder; path = schema; sourceTree = "<group>"; };
+		A58F39DE2A09869D00178E18 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+		A58F39DF2A09869D00178E18 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A58F39E02A09869D00178E18 /* CONTRIBUTORS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTORS.md; sourceTree = "<group>"; };
+		A58F39E12A09869D00178E18 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		A58F39E22A09869D00178E18 /* .golangci.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .golangci.yaml; sourceTree = "<group>"; };
+		A58F39E32A09869D00178E18 /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
+		A58F39E42A09869D00178E18 /* syft */ = {isa = PBXFileReference; lastKnownFileType = folder; path = syft; sourceTree = "<group>"; };
+		A58F39E52A09869D00178E18 /* .bouncer.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .bouncer.yaml; sourceTree = "<group>"; };
+		A58F39E62A09869D00178E18 /* Dockerfile.debug */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile.debug; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A58F39C92A09869D00178E18 = {
+			isa = PBXGroup;
+			children = (
+				A58F39CF2A09869D00178E18 /* ui */,
+				A58F39D02A09869D00178E18 /* cmd */,
+				A58F39D12A09869D00178E18 /* go.mod */,
+				A58F39D22A09869D00178E18 /* artifacthub-repo.yml */,
+				A58F39D32A09869D00178E18 /* .goreleaser.yaml */,
+				A58F39D42A09869D00178E18 /* LICENSE */,
+				A58F39D52A09869D00178E18 /* test */,
+				A58F39D62A09869D00178E18 /* DEVELOPING.md */,
+				A58F39D72A09869D00178E18 /* Dockerfile */,
+				A58F39D82A09869D00178E18 /* Makefile */,
+				A58F39D92A09869D00178E18 /* install.sh */,
+				A58F39DA2A09869D00178E18 /* internal */,
+				A58F39DB2A09869D00178E18 /* go.sum */,
+				A58F39DC2A09869D00178E18 /* README.md */,
+				A58F39DD2A09869D00178E18 /* schema */,
+				A58F39DE2A09869D00178E18 /* RELEASE.md */,
+				A58F39DF2A09869D00178E18 /* .gitignore */,
+				A58F39E02A09869D00178E18 /* CONTRIBUTORS.md */,
+				A58F39E12A09869D00178E18 /* CONTRIBUTING.md */,
+				A58F39E22A09869D00178E18 /* .golangci.yaml */,
+				A58F39E32A09869D00178E18 /* .github */,
+				A58F39E42A09869D00178E18 /* syft */,
+				A58F39E52A09869D00178E18 /* .bouncer.yaml */,
+				A58F39E62A09869D00178E18 /* Dockerfile.debug */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A58F39CE2A09869D00178E18 /* syft */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "syft" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/doapply/Projects/macsf/Uninstaller/Helper/syft;
+			dependencies = (
+			);
+			name = syft;
+			passBuildSettingsInEnvironment = 1;
+			productName = syft;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A58F39CA2A09869D00178E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "syft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A58F39C92A09869D00178E18;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58F39CE2A09869D00178E18 /* syft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A58F39CB2A09869D00178E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		A58F39CC2A09869D00178E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A58F39E82A09869D00178E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = syft;
+			};
+			name = Debug;
+		};
+		A58F39E92A09869D00178E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = syft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58F39CD2A09869D00178E18 /* Build configuration list for PBXProject "syft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58F39CB2A09869D00178E18 /* Debug */,
+				A58F39CC2A09869D00178E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58F39E72A09869D00178E18 /* Build configuration list for PBXLegacyTarget "syft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58F39E82A09869D00178E18 /* Debug */,
+				A58F39E92A09869D00178E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A58F39CA2A09869D00178E18 /* Project object */;
+}

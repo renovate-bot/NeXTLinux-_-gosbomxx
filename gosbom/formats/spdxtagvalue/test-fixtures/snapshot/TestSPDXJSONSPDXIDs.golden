@@ -1,0 +1,47 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: foobar/baz
+DocumentNamespace: https://nextlinux.com/gosbom/dir/foobar/baz-9c1f31fb-7c72-40a6-8c81-3a08590000a2
+LicenseListVersion: 3.20
+Creator: Organization: Nextlinux, Inc
+Creator: Tool: gosbom-v0.42.0-bogus
+Created: 2023-05-02T18:24:33Z
+
+##### Package: @at-sign
+
+PackageName: @at-sign
+SPDXID: SPDXRef-Package---at-sign-3732f7a5679bdec4
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from the following paths: 
+PackageLicenseConcluded: NONE
+PackageLicenseDeclared: NONE
+PackageCopyrightText: NOASSERTION
+
+##### Package: some/slashes
+
+PackageName: some/slashes
+SPDXID: SPDXRef-Package--some-slashes-1345166d4801153b
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from the following paths: 
+PackageLicenseConcluded: NONE
+PackageLicenseDeclared: NONE
+PackageCopyrightText: NOASSERTION
+
+##### Package: under_scores
+
+PackageName: under_scores
+SPDXID: SPDXRef-Package--under-scores-290d5c77210978c1
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageSourceInfo: acquired package info from the following paths: 
+PackageLicenseConcluded: NONE
+PackageLicenseDeclared: NONE
+PackageCopyrightText: NOASSERTION
+
+##### Relationships
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-DOCUMENT
+
